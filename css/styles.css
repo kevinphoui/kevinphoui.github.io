@@ -1,8 +1,24 @@
 /*
-CSS
+CSS file
 By Kevin Phouisangiem
 */
 
-html, body {
-    font-family: 'Roboto', 'Helvetica', sans-serif;
+html {
+    background-color: #f8f8ff;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Arial', 'Roboto', 'Helvetica', sans-serif;
+}
+
+/* Top Header */
+.welcome {
+    background-color: #2b2b2b;
+    color: white;
+    font-family:'Heebo';
+    font-size: 50px;
+    text-align: center;
+}
+
+body {
+    
 }
