@@ -4,7 +4,7 @@ By Kevin Phouisangiem
 */
 
 html {
-    background-color: #f8f8ff;
+    background-color: #0B0C10;
     margin-left: 10rem;
     margin-right: 10rem;
     font-family: 'Roboto', 'Helvetica', sans-serif;
@@ -22,15 +22,15 @@ html {
     padding: 20px;
     letter-spacing: -3px;
     word-spacing: 5px;
-    background-color: #2b2b2b;
+    background-color: #1F2833;
     color: white;
     font-family:'Heebo';
     font-size: 60px;
     text-align: center;
 }
-/* Nav Tab */
+/* Navigation Tab */
 .tablink {
-    background-color: grey;
+    background-color: #c5c6c7;
     font-size: 25px;
     margin: 0;
     text-align: center;
@@ -41,12 +41,12 @@ html {
 
 /* Body */
 body {
-    background-color:  #fffac4;
+    background-color:  #45a29e;
 }
 
 /* Footer */
 footer {
-    background-color: #212121;
+    background-color: #1F2833;
     color: white;
     text-align: center;
     padding: 10px 0 5px 0;
@@ -59,4 +59,16 @@ footer {
 .intro {
     text-align: center;
     font-style: italic;
+}
+
+.resume {
+    margin: 2em;
+}
+
+.projects {
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
 }
