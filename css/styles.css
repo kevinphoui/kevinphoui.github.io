@@ -32,12 +32,29 @@ html {
 .tablink {
     background-color: #c5c6c7;
     font-size: 25px;
-    margin: 0;
     text-align: center;
+    text-decoration: none;
 }
-.tablink:hover {
-    background-color: #777;	
+a.tablink:link {
+    color: black;
+    text-decoration: none;
 }
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+a.tablink:hover {
+    background-color: white;
+    text-decoration: none;	
+}
+a:active {
+    color: white;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+
 
 /* Body */
 body {
