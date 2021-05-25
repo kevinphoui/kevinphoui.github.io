@@ -26,10 +26,19 @@ html {
     letter-spacing: -3px;
     word-spacing: 5px;
     background-color: #3AAFA9;
-    color: black;
+    color: white;
     font-family:'Heebo';
-    font-size: 60px;
+    font-size: 65px;
     text-align: center;
+}
+/* Banner Image */
+.bannerImage {
+    background-image: url(../files/chicago.png);
+    height: 50%;
+    background-position: center 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 
@@ -74,23 +83,45 @@ footer {
     height: 2.5rem;  
 }
 
+.pageTitle {
+    text-align: center;
+    text-decoration: underline;
+}
+
 h3 {
     display: inline;
 }
 
+
+/* Index Page */
 .intro {
     text-align: center;
     font-size: 32px;
 }
-
-.resume {
-    margin: 2em;
+.introPara {
+    margin: 0 2em 0 2em;
+    font-size: 25px;
+    font-family: 'Helvetica','Roboto';
 }
 
+
+/* Resume Page */
+.resume {
+    margin: 0 2em 0 2em;
+}
+
+
+/* Projects Page */
 .projects {
     text-align: center;
 }
+.projectsText {
+    margin: 0 2em 0 2em;
+}
 
+
+/* Contact Page */
 .contact {
     text-align: center;
 }
+
