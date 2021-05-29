@@ -7,7 +7,6 @@ By Kevin Phouisangiem
     padding: 0;
     border: 0;
     outline: 0;
-    font-size: 100%;
     vertical-align: baseline;
     background: transparent;
 }
@@ -42,7 +41,7 @@ html {
     text-align: center;
 }
 /* Banner Image */
-.bannerImage {
+.aboutBanner {
     background-image: url(../files/chicago.png);
     height: 50%;
     background-position: center 75%;
@@ -57,21 +56,15 @@ html {
     background-color: #2B7A78;
     font-size: 25px;
     text-align: center;
+}
+.navButton {
     color: white;
-}
-a.tablink:link {
-    color: white;
-}
-a:visited {
-    color: white;
-}
-a:hover {
-    background-color: white;
-    color: black;
-}
-a{
     text-decoration: none;
     padding: 0 2em 0 2em;
+}
+a.navButton:hover {
+    background-color: white;
+    color: black;
 }
 
 
@@ -94,6 +87,7 @@ footer {
     height: 2.5rem;  
 }
 
+/*                            */
 .pageTitle {
     text-align: center;
     text-decoration: underline;
@@ -105,33 +99,34 @@ h3 {
 
 
 /*---------------------- Index Page ----------------------*/
-.intro {
+#intro {
+    margin-top: 1em;
     text-align: center;
     font-size: 32px;
 }
-.introPara {
-    margin: 0 2em 0 2em;
+#introPara {
+    margin: 1em 2em 0 2em;
     font-size: 25px;
     font-family: 'Helvetica','Roboto';
 }
 
 
 /*---------------------- Resume Page ----------------------*/
-.resume {
-    margin: 0 2em 1em 2em;
+#resume {
+    margin: 1em 2em 2em 2em;
 }
 
 
 /*---------------------- Projects Page ----------------------*/
-.projects {
+#projects {
     text-align: center;
 }
-.projectsText {
+#projectsText {
     margin: 0 2em 0 2em;
 }
 
 /*---------------------- About Me Page ----------------------*/
-.abosut {
+#xxxabout {
    text-align: center;
 }
 /* About Me Slideshow */
@@ -203,7 +198,7 @@ img {
 }
 
 /*---------------------- Contact Page ----------------------*/
-.contact {
+#contact {
     text-align: center;
 }
 
