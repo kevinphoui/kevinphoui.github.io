@@ -12,6 +12,7 @@ By Kevin Phouisangiem
 }
 /*------------------------------- HTML -------------------------------*/
 html {
+    height: 100%;
     background-color: #FEFFFF;
     margin-left: 10rem;
     margin-right: 10rem;
@@ -33,7 +34,6 @@ html {
 
 /*------------------------------- Title/Banner -------------------------------*/
 .welcome {
-    padding: 20px;
     letter-spacing: -3px;
     word-spacing: 5px;
     color: white;
@@ -41,6 +41,7 @@ html {
     font-size: 65px;
     text-align: center;
     background-color: #3AAFA9;
+    
 }
 
 
@@ -65,6 +66,7 @@ a.navButton:hover {
 body {
     background-color:  #DEF2F1;
     color: black;
+    height: 100%;
 }
 
 

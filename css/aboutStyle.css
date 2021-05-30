@@ -10,6 +10,14 @@
     position: relative;
     background-color: #113e61;
     color: white;
+    
+}
+#aboutBanner div {
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
 }
 
 #xxxabout {

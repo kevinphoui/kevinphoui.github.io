@@ -1,5 +1,6 @@
 /*------------------------------- Resume Page -------------------------------*/
 
+/* Banner Image */
 #resumeBanner {
     background-image: url(../files/campus.jpg);
     height: 50%;
@@ -7,10 +8,15 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    xpadding: 20px;
 }
 
-#resumeBanner span {
-
+#resumeBanner div {
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
 }
 
 #resume {
