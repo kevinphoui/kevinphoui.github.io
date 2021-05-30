@@ -1,4 +1,19 @@
 /*------------------------------- Resume Page -------------------------------*/
+
+#resumeBanner {
+    background-image: url(../files/campus.jpg);
+    height: 50%;
+    background-position: center 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#resumeBanner span {
+
+}
+
 #resume {
     margin: 1em 2em 2em 2em;
 }
+
