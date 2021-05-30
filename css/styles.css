@@ -48,7 +48,6 @@ html {
 
 /*------------------------------- Navigation Tab -------------------------------*/
 .tabLink {
-    background-color: #2B7A78;
     font-size: 25px;
     text-align: center;
 }
@@ -65,7 +64,6 @@ a.navButton:hover {
 
 /*------------------------------- Body -------------------------------*/
 body {
-    background-color:  #DEF2F1;
     color: black;
     height: 100%;
 }
@@ -73,7 +71,6 @@ body {
 
 /*------------------------------- Footer -------------------------------*/
 footer {
-    background-color: #2B7A78;
     color: black;
     text-align: center;
     padding: 10px 0 5px 0;

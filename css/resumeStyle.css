@@ -1,6 +1,6 @@
 /*------------------------------- Resume Page -------------------------------*/
 
-/* Banner Image */
+/* Banner */
 #resumeBanner {
     background-image: url(../files/campus.jpg);
     height: 50%;
@@ -18,6 +18,16 @@
     background: rgba(0,0,0,0.5);
     height: 100%;
     width: 100%;
+}
+.tabLink {
+    background-color: #18191A;
+}
+body {
+    background-color: #e4e6eb;
+}
+footer {
+   background-color: #18191A;
+   color: white;
 }
 
 #resume {

@@ -21,24 +21,25 @@
     height: 100%;
     width: 100%;
 }
+.tabLink {
+    background-color: #18191A;
+}
+
+body {
+    background-color: #e4e6eb;
+}
+footer {
+   background-color: #18191A;
+   color: white;
+}
+
 
 #xxxabout {
     text-align: center;
  }
 
- .tabLink {
-     background-color: #03254c;
- }
 
- body {
-     background-color: #d0efff;
- }
- footer {
-    background-color: #03254c;
-    color: white;
- }
-
- /* About Me Slideshow */
+ /*-------------------- About Me Slideshow --------------------*/
  .slides {
      display: none
  }

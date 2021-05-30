@@ -1,6 +1,6 @@
 /*------------------------------- Contact Page -------------------------------*/
 
-/* Banner Image */
+/* Banner */
 #contactBanner {
     background-image: url(../files/sky.jpg);
     height: 50%;
@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    background-color: #113e61;
+    background-color: black;
     color: white;
     -moz-box-shadow: inset 0 0 10px #000000;
     -webkit-box-shadow: inset 0 0 10px #000000;
@@ -21,6 +21,17 @@
     height: 100%;
     width: 100%;
 }
+.tabLink {
+    background-color: #18191A;
+}
+body {
+    background-color: #e4e6eb;
+}
+footer {
+   background-color: #18191A;
+   color: white;
+}
+
 
 #contact {
     text-align: center;
