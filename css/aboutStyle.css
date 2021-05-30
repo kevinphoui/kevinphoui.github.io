@@ -10,7 +10,9 @@
     position: relative;
     background-color: #113e61;
     color: white;
-    
+    -moz-box-shadow: inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #000000;
 }
 #aboutBanner div {
     backdrop-filter: blur(5px);

@@ -1,4 +1,27 @@
 /*------------------------------- Index Page -------------------------------*/
+
+/* Banner Image */
+#homeBanner {
+    background-image: url(../files/minnesota.jpg);
+    height: 50%;
+    background-position: center 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: #113e61;
+    color: white;
+    -moz-box-shadow: inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #000000;
+}
+#homeBanner div {
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
+}
+
 #intro {
     margin-top: 1em;
     text-align: center;
