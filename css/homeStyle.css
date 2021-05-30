@@ -1,0 +1,11 @@
+/*------------------------------- Index Page -------------------------------*/
+#intro {
+    margin-top: 1em;
+    text-align: center;
+    font-size: 32px;
+}
+#introPara {
+    margin: 1em 2em 0 2em;
+    font-size: 25px;
+    font-family: 'Helvetica','Roboto';
+}
