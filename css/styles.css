@@ -1,5 +1,5 @@
-/*
-CSS file
+/* 
+Global CSS file 
 By Kevin Phouisangiem
 */
 /* Universal */
@@ -20,6 +20,7 @@ html {
     margin-left: 10rem;
     margin-right: 10rem;
     font-family:  'Manrope', 'Roboto', 'Helvetica', sans-serif;
+    overflow: auto;
 }
 
 /* Makes website fill the whole page */
