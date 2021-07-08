@@ -39,9 +39,19 @@ footer {
 /* Set the size of the div element that contains the map */
 #map {
     height: 400px;
-    margin:auto;
-
-    /* The height is 400 pixels */
-    width: 50%;
-    /* The width is the width of the web page */
+    margin: auto;
+    border: solid;
+    border-color: white;
+    width: 40%;
   }
+
+.flex-container {
+    margin: 2em 0em 1em 0 ;
+    display: flex;
+}
+
+.flex-container > div {
+    margin: 10px;
+    text-align: left;
+}
+

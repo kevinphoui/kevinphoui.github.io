@@ -33,10 +33,13 @@ footer {
    color: white;
 }
 
-
 #xxxabout {
     text-align: center;
  }
+
+.videoContainer {
+    text-align: center;
+}
 
 
  /*-------------------- About Me Slideshow --------------------*/
