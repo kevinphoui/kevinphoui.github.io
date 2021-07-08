@@ -32,8 +32,16 @@ footer {
    color: white;
 }
 
-
 #contact {
     text-align: center;
 }
 
+/* Set the size of the div element that contains the map */
+#map {
+    height: 400px;
+    margin:auto;
+
+    /* The height is 400 pixels */
+    width: 50%;
+    /* The width is the width of the web page */
+  }
