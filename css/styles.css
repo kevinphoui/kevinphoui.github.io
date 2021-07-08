@@ -81,8 +81,8 @@ footer {
 
 /* Page Title/Header */
 .pageTitle {
+    margin-top: 0.5em;
     text-align: center;
-    text-decoration: underline;
 }
 
 h3 {
