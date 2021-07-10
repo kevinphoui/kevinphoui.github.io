@@ -2,7 +2,7 @@
 
 /* Banner */
 #contactBanner {
-    background-image: url(../files/sky.jpg);
+    background-image: url(../files/sky_banner.jpg);
     height: 50%;
     background-position: center 40%;
     background-repeat: no-repeat;
@@ -39,19 +39,20 @@ footer {
 /* Set the size of the div element that contains the map */
 #map {
     height: 400px;
-    margin: auto;
+    margin-right: 5em;
     border: solid;
     border-color: white;
     width: 40%;
   }
 
 .flex-container {
-    margin: 2em 0em 1em 0 ;
+    margin-top: 2em;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .flex-container > div {
-    margin: 10px;
+    margin: 0 auto 0 auto;
     text-align: left;
 }
 

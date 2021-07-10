@@ -2,9 +2,9 @@
 
 /* Banner */
 #homeBanner {
-    background-image: url(../files/minnesota.jpg);
+    background-image: url(../files/minnesota_banner.jpg);
     height: 50%;
-    background-position: center 40%;
+    background-position: center 65%;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
