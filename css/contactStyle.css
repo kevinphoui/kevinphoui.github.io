@@ -34,11 +34,12 @@ footer {
 
 /* Set the size of the div element that contains the map */
 #map {
-    height: 400px;
+    height: 50vh;
     border: solid;
     border-color: #18191A;
     border-width: 8px;
-    width: 40%;
+    width: 100vh;
+    overflow: hidden;
   }
 
 .flex-container {
