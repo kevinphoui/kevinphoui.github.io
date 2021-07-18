@@ -32,16 +32,13 @@ footer {
    color: white;
 }
 
-#contact {
-    text-align: center;
-}
-
 /* Set the size of the div element that contains the map */
 #map {
     height: 400px;
     margin-right: 5em;
     border: solid;
-    border-color: white;
+    border-color: #18191A;
+    border-width: 8px;
     width: 40%;
   }
 
