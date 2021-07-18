@@ -20,7 +20,10 @@ html {
     font-family:  'Manrope', 'Roboto', 'Helvetica', sans-serif;
     overflow: auto;
 }
-
+/* Wrap Links */
+a {
+    word-wrap: break-word;
+}
 /* Makes website fill the whole page */
 #page-container {
     position: relative;
