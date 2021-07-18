@@ -16,7 +16,7 @@ By Kevin Phouisangiem
 /*------------------------------- HTML -------------------------------*/
 html {
     height: 100%;
-    background-color: #FEFFFF;
+    background-color: #e4e6eb;
     font-family:  'Manrope', 'Roboto', 'Helvetica', sans-serif;
     overflow: auto;
 }
@@ -88,3 +88,4 @@ footer {
 h3 {
     display: inline;
 }
+

@@ -42,3 +42,36 @@ footer {
     font-size: 20px;
     font-family: 'Helvetica','Roboto';
 }
+
+#photoOfMe {
+    width: auto;
+    height: 600px;
+    mxargin-bottom: 2em;
+    
+}
+
+.flex-container {
+    margin-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.flex-container > div {
+    margin: 0 auto 0 auto;
+    max-width: 50%;
+    text-align: left;
+    
+}
+
+div.polaroid {
+    xwidth: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+
+div.photoContainer {
+    text-align: center;
+    padding: 10px 20px;
+  }
