@@ -52,7 +52,7 @@ footer {
     } 
 }
 #introPara {
-    margin: 1em 4em 0 4em;
+    margin: 0 4em 0 4em;
     xfont-size: 20px;
     font-family: 'Helvetica','Roboto';
 }
