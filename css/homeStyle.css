@@ -37,9 +37,23 @@ footer {
     text-align: center;
     font-size: 32px;
 }
+@media only screen and (max-width: 2000px) {
+    #introPara {
+        color: red;
+        font-size: 1vh;
+        font-size: 1.5vw;
+    } 
+    
+    
+@media only screen and (max-width: 400px) {
+    #introPara {
+        color: blue;
+        font-size: 20px;
+    } 
+}
 #introPara {
     margin: 1em 4em 0 4em;
-    font-size: 20px;
+    xfont-size: 20px;
     font-family: 'Helvetica','Roboto';
 }
 
