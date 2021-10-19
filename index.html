@@ -1,13 +1,10 @@
 <!--
     Made by Kevin Phouisangiem
-    Index Page
+    New Home Page 
 -->
 
 <!--
     TODO:
-    fix ratio
-    When site is finished:
-    Mobile version
 -->
 
 <!DOCTYPE html>
@@ -16,12 +13,15 @@
         <meta charset = "utf-8">
         <link rel="stylesheet" href="css/styles.css"/>
         <link rel="stylesheet" href="css/homeStyle.css"/>
+        <link rel="stylesheet" href="css/resumeStyle.css"/>
+        <link rel="stylesheet" href="css/contactStyle.css"/>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Heebo"/>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Manrope"/>
         <link rel="apple-touch-icon" sizes="180x180" href="files/icon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="files/icon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="files/icon/favicon-16x16.png">
         <link rel="manifest" href="files/icon/site.webmanifest">
+        <script src="js/script.js"></script>
         <title>Home | Kevin Phouisangiem</title>
     </head>
 
@@ -33,40 +33,85 @@
                 </header>
                 <main>
                     <nav class="tabLink">
-                        <a class="navButton" href="https://kevinphoui.github.io/">Home</a>
-                        <a class="navButton" href="https://kevinphoui.github.io/resume">Resume</a>
-                        <a class="navButton" href="https://kevinphoui.github.io/projects">Projects</a>
-                        <!--<a class="navButton" href="about.html">About Me</a>-->
-                        <a class="navButton" href="https://kevinphoui.github.io/contact">Contact</a>
+                        <a class="navButton" href="#home">Home</a>
+                        <a class="navButton" href="#resume">Resume</a>
+                        <a class="navButton" href="#projects">Projects</a>
+                        <a class="navButton" href="#contact">Contact</a>
                     </nav>
 
-                    <div>
-                        <p id="intro">
-                            <em style="text-shadow: 2px 2px 0px rgba(255, 14, 0, 1);">
-                                Hello,</em> I'm Kevin! <br/>
-                                Welcome to my website! <br/>
-                                <div style="font-size: 16px; text-align: center"><em>This website is optimized for desktop</em></div><br/>
-                        </p>
+                    
+                    <p id="intro">
+                        <em style="text-shadow: 2px 2px 0px rgba(255, 14, 0, 1);">
+                            Hello,</em> I'm Kevin! <br/>
+                            Welcome to my website! <br/>
+                    </p>
+
+                    <!-- Home -->
+                    <section id="home">
                         <div class="flex-container">
                             <div>
                                 <p id= "introPara">
                                     Born and raised in Minnesota, I grew up with computers and all sorts of technology around me! Through that, I developed a passion to become a programmer.
                                     <br><br>I'm currently a sophomore at the University of Wisconsin-Madison studying computer science and will be graduating in 2024. 
                                     I am passionate about Computer Science and open to any work-related in the field!
-                                    <!--
-                                        You can check that out in my
-                                    <a href="about.html">About Me</a> page.
-                                    -->
                                 </p>
                             </div>
-                            <div style="margin-bottom: 2em">
+                            <div>
                                 <img id="photoOfMe" src="files/me2.jpg" alt="Me on campus!">
                                 <div class="photoContainer">
                                     <p>Me at Bascom Hall!</p>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </section>
+
+                    <!-- Resume -->
+                    <section id="resume">
+                        <div>
+                            <h1 class="pageTitle">Resume</h1>
+                            <div class="resume">
+                                <embed src="files/resume.pdf" type="application/pdf" style="width:90vw; height:100vh"/>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Projects -->
+                    <section id="projects">
+                        <div>
+                            <h1 class="pageTitle">Projects</h1>
+                            <div style="margin-left: 10%">
+                                <div id = projectsText>
+                                    <h3>Personal Website | May 2021</h3><br/>
+                                    This current website! Follows W3C standards. | HTML, CSS, & JavaScript <br/>
+                                    <a href="https://github.com/kevinphoui/kevinphoui.github.io">https://github.com/kevinphoui/kevinphoui.github.io</a><br/><br/>
+        
+                                    <h3>Discord Bot | Jan 2021 (WIP)</h3><br/>
+                                    A chatbot for Discord, a popular voice chat application | JavaScript <br/>
+                                    <a href="https://github.com/kevinphoui/discordbot">https://github.com/kevinphoui/discordbot</a><br/><br/>
+        
+                                    <h3>Shopping Cart Application | Jan 2020</h3><br/>
+                                    Shopping Cart Program with a GUI | Java<br/>
+                                    <a href="https://github.com/kevinphoui/ShoppingApp">https://github.com/kevinphoui/ShoppingApp</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Contact Me -->
+                    <section id="contact">
+                        <div class="flex-container">
+                            <div>
+                                <h1>Contact Me</h1>
+                                <div>
+                                    763-777-1775 <br/>
+                                    East Bethel, MN, 55011 <br/>
+                                    <a href="mailto:kevinpho970@gmail.com">kevinpho970@gmail.com</a><br/>
+                                    <a href="https://www.linkedin.com/in/kevin-pho/" target="_blank">https://www.linkedin.com/in/kevin-pho/</a><br/><br/>
+                                </div>
+                            </div>
+                            <div id="map"></div>
+                        </div>
+                    </section>
                 </main>
             </div>
 
@@ -75,5 +120,9 @@
                 <div style="font-size: 16px"><em>This website is made by me</em></div>
             </footer>
         </div>
+        <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwGpXAb3CRQYtdMf7LvvnR2WVP_eqLyok&callback=initMap&libraries=&v=weekly"
+        async
+      ></script>
     </body>
 </html>
