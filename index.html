@@ -5,12 +5,19 @@
 
 <!--
     TODO:
+    Make titles bigger (contact, resume, projects)
+    Change title font
+    Change grey to something better looking
+    Adjust resume sizing
+    Fix projects aligning?
+    Scroll to top button
 -->
 
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset = "utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
         <link rel="stylesheet" href="css/styles.css"/>
         <link rel="stylesheet" href="css/homeStyle.css"/>
         <link rel="stylesheet" href="css/resumeStyle.css"/>
@@ -70,29 +77,35 @@
                         <div>
                             <h1 class="pageTitle">Resume</h1>
                             <div class="resume">
-                                <embed src="files/resume.pdf" type="application/pdf" style="width:90vw; height:100vh"/>
+                                <emxbed src="files/resume.pdf" type="application/pdf" style="width:90vw; height:100vh"/>
+                                <object data="files/resume.pdf" type="application/pdf" frameborder="0" width="100%" height="600px">
+                                    <embed src="https://drive.google.com/file/d/1X96Evy7HhFXOTl3V7aZ-onM7iuq0NSlM/view?usp=sharing" width="100%" height="600px"/> 
+                                    <p>Your browser doesn't support PDFs</p>
+                                    <p><a href="https://drive.google.com/file/d/1X96Evy7HhFXOTl3V7aZ-onM7iuq0NSlM/view?usp=sharing">Click here to open my resume instead</a></p>
+                                </object>
+                                <object data='some.pdf'>
+                                    
+                                </object>
                             </div>
                         </div>
                     </section>
 
                     <!-- Projects -->
                     <section id="projects">
-                        <div>
+                        <div style="text-align: center">
                             <h1 class="pageTitle">Projects</h1>
-                            <div style="margin-left: 10%">
-                                <div id = projectsText>
-                                    <h3>Personal Website | May 2021</h3><br/>
-                                    This current website! Follows W3C standards. | HTML, CSS, & JavaScript <br/>
-                                    <a href="https://github.com/kevinphoui/kevinphoui.github.io">https://github.com/kevinphoui/kevinphoui.github.io</a><br/><br/>
-        
-                                    <h3>Discord Bot | Jan 2021 (WIP)</h3><br/>
-                                    A chatbot for Discord, a popular voice chat application | JavaScript <br/>
-                                    <a href="https://github.com/kevinphoui/discordbot">https://github.com/kevinphoui/discordbot</a><br/><br/>
-        
-                                    <h3>Shopping Cart Application | Jan 2020</h3><br/>
-                                    Shopping Cart Program with a GUI | Java<br/>
-                                    <a href="https://github.com/kevinphoui/ShoppingApp">https://github.com/kevinphoui/ShoppingApp</a>
-                                </div>
+                            <div id ="projectsText">
+                                <h3>Personal Website | May 2021</h3> HTML, CSS, & JavaScript <br/>
+                                This current website! Follows W3C standards | <br/>
+                                <a href="https://github.com/kevinphoui/kevinphoui.github.io">https://github.com/kevinphoui/kevinphoui.github.io</a><br/><br/>
+    
+                                <h3>Discord Bot | Jan 2021</h3> JavaScript<br/>
+                                A chatbot for Discord, a popular voice chat application<br/>
+                                <a href="https://github.com/kevinphoui/discordbot">https://github.com/kevinphoui/discordbot</a><br/><br/>
+    
+                                <h3>Shopping Cart Application | Jan 2020</h3> Java<br/>
+                                Shopping Cart Program with a GUI<br/>
+                                <a href="https://github.com/kevinphoui/ShoppingApp">https://github.com/kevinphoui/ShoppingApp</a>
                             </div>
                         </div>
                     </section>
@@ -100,7 +113,7 @@
                     <!-- Contact Me -->
                     <section id="contact">
                         <div class="flex-container">
-                            <div>
+                            <div style="text-align: center">
                                 <h1>Contact Me</h1>
                                 <div>
                                     763-777-1775 <br/>

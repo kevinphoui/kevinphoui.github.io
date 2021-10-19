@@ -42,12 +42,15 @@ footer {
     
 @media (max-width: 480px) {
     #introPara {
-        font-size: 0.65vh;
-        font-size: 0.66vw;
+        font-size: auto;
+        font-size: 3.5vw;
     } 
     #photoOfMe {
         width: auto;
         height: 30vh;   
+        border: solid;
+    border-color: #18191A;
+    border-width: 8px;
     }
     
 }
@@ -58,7 +61,10 @@ footer {
     } 
     #photoOfMe {
         width: auto;
-        height: 50vh;   
+        height: 50vh; 
+        border: solid;
+    border-color: #18191A;
+    border-width: 8px;  
     }
     
 }
@@ -79,13 +85,6 @@ footer {
     
 }
 
-div.polaroid {
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
-  }
-
 div.photoContainer {
     text-align: center;
-    padding: 10px 20px;
   }

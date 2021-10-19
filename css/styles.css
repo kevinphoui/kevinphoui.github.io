@@ -73,7 +73,7 @@ body {
 
 #home {
     background-color: #e4e6eb;
-    padding: 1em 0 1em 0;
+    padding: 2em 0 2em 0;
 }
 
 #resume {
@@ -103,7 +103,7 @@ footer {
 
 /* Page Title / Header */
 .pageTitle {
-    margin-top: 0.5em;
+    margin-bottom: 0.5em;
     text-align: center;
 }
 
