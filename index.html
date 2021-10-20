@@ -5,12 +5,13 @@
 
 <!--
     TODO:
-    Make titles bigger (contact, resume, projects)
     Change title font
     Change grey to something better looking
     Adjust resume sizing
     Fix projects aligning?
     Scroll to top button
+    Slideshow for projects
+    Pay for google's map
 -->
 
 <!DOCTYPE html>
@@ -29,7 +30,7 @@
         <link rel="icon" type="image/png" sizes="16x16" href="files/icon/favicon-16x16.png">
         <link rel="manifest" href="files/icon/site.webmanifest">
         <script src="js/script.js"></script>
-        <title>Home | Kevin Phouisangiem</title>
+        <title>Kevin Phouisangiem</title>
     </head>
 
     <body>
@@ -40,7 +41,7 @@
                 </header>
                 <main>
                     <nav class="tabLink">
-                        <a class="navButton" href="#home">Home</a>
+                        <a class="navButton" href="#home">About Me</a>
                         <a class="navButton" href="#resume">Resume</a>
                         <a class="navButton" href="#projects">Projects</a>
                         <a class="navButton" href="#contact">Contact</a>
@@ -73,16 +74,15 @@
                     </section>
 
                     <!-- Resume -->
-                    <section id="resume">
-                        <div>
+                    <section id="resume" class ="resume-background">
+                        <div class="resume">
                             <h1 class="pageTitle">Resume</h1>
-                            <div class="resume">
+                            <div class="resume-border">
                                 <emxbed src="files/resume.pdf" type="application/pdf" style="width:90vw; height:100vh"/>
                                 <object data="files/resume.pdf" type="application/pdf" frameborder="0" width="100%" height="600px">
                                     <p>Your browser doesn't support PDFs</p>
                                     <p><a href="https://drive.google.com/file/d/1X96Evy7HhFXOTl3V7aZ-onM7iuq0NSlM/view?usp=sharing">Click here to open my resume</a></p>
                                     <embed src="https://drive.google.com/file/d/1X96Evy7HhFXOTl3V7aZ-onM7iuq0NSlM/view?usp=sharing" width="100%" height="600px"/> 
-                                    
                                 </object>
                             </div>
                         </div>
@@ -109,9 +109,9 @@
                     </section>
 
                     <!-- Contact Me -->
-                    <section id="contact">
+                    <section id="contact" class="contact-background">
                         <div class="flex-container">
-                            <div>
+                            <div class="contact-info">
                                 <h1>Contact Me</h1>
                                 <div>
                                     763-777-1775 <br/>

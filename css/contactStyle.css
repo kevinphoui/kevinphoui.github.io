@@ -1,42 +1,20 @@
 /*------------------------------- Contact Page -------------------------------*/
 
-/* Banner */
-#contactBanner {
-    background-image: url(../files/sky_banner.jpg);
-    height: 50%;
-    background-position: center 40%;
-    background-repeat: no-repeat;
+.contact-background {
+    background-image: url(../files/minnesota-blur.jpg);
+    background-attachment: fixed;
     background-size: cover;
-    position: relative;
-    background-color: black;
-    color: white;
-    -moz-box-shadow: inset 0 0 10px #000000;
-    -webkit-box-shadow: inset 0 0 10px #000000;
-    box-shadow: inset 0 0 10px #000000;
 }
-#contactBanner div {
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    background: rgba(0,0,0,0.5);
-    height: 100%;
-    width: 100%;
-}
-.tabLink {
-    background-color: #18191A;
-}
-body {
-    background-color: #e4e6eb;
-}
-footer {
-   background-color: #18191A;
-   color: white;
+
+.contact-info {
+    padding: 1em 1em 0 1em;
 }
 
 /* Set the size of the div element that contains the map */
 #map {
     height: 50vh;
     border: solid;
-    border-color: #18191A;
+    border-color: white; 
     border-width: 8px;
     width: 100vh;
     overflow: hidden;
@@ -44,7 +22,9 @@ footer {
 
 .flex-container {
     display: flex;
+    background-color: white;
     flex-wrap: wrap;
+    margin: 0 5% 0 5%;
 }
 
 .flex-container > div {

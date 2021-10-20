@@ -1,0 +1,50 @@
+/*------------------------------- Resume Page -------------------------------*/
+
+/* Banner */
+#resumeBanner {
+    background-image: url(../files/campus_banner.jpg);
+    height: 50%;
+    background-position: center 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    -moz-box-shadow: inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #000000;
+}
+#resumeBanner div {
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
+}
+.tabLink {
+    background-color: #18191A;
+}
+
+
+
+.resume-background {
+    background-image: url(../files/coding.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.resume {
+    margin: 0 5% 0 5%;
+    background-color: white;
+}
+
+.resume-border {
+    box-sizing: border-box;
+    border-right: 5px solid white;
+    border-left: 5px solid white;
+}
+
+body {
+    background-color: #e4e6eb;
+}
+footer {
+   background-color: #18191A;
+   color: white;
+}

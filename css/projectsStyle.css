@@ -1,38 +1,5 @@
 /*------------------------------- Projects Page -------------------------------*/
 
-/* Banner */
-#projectBanner {
-    background-image: url(../files/coding_banner.jpg);
-    height: 50%;
-    background-position: center 75%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    background-color: #113e61;
-    color: white;
-    -moz-box-shadow: inset 0 0 10px #000000;
-    -webkit-box-shadow: inset 0 0 10px #000000;
-    box-shadow: inset 0 0 10px #000000;
-}
-#projectBanner div {
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    background: rgba(0,0,0,0.5);
-    height: 100%;
-    width: 100%;
-}
-.tabLink {
-    background-color: #18191A;
-}
-body {
-    background-color: #e4e6eb;
-}
-footer {
-   background-color: #18191A;
-   color: white;
-}
-
-
 #projects {
     text-align: center;
 }
