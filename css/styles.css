@@ -40,31 +40,6 @@ h3 {
     padding-bottom: 2.5rem;
 }
 
-/*------------------------------- Title/Banner -------------------------------*/
-/* Name Font/Sizing */
-.welcome {
-    letter-spacing: -3px;
-    word-spacing: 5px;
-    color: white;
-    font-family:'Heebo';
-    font-size: 64px;
-    text-align: center;
-}
-/* Banner */
-#homeBanner {
-    background-color: #18191A;
-    color: white;
-    -moz-box-shadow: inset 0 0 10px #000000;
-    -webkit-box-shadow: inset 0 0 10px #000000;
-    box-shadow: inset 0 0 10px #000000;
-}
-#homeBanner div {
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    background: rgba(0,0,0,0.5);
-}
-
-
 /*------------------------------- Navigation Tab -------------------------------*/
 .tabLink {
     font-size: 25px;
@@ -108,6 +83,7 @@ body {
     text-align: left;
 }
 
+/* Scroll to Top Button */
 #topButton {
     display: none;
     position: fixed;

@@ -1,4 +1,4 @@
-/*------------------------------- Index Page -------------------------------*/
+/*------------------------------- About Section -------------------------------*/
 
 /* Splash Screen */
 #intro {
@@ -38,6 +38,9 @@
 @media (max-width: 480px) {
     #hello p {
         font-size: auto;
+        font-size: 5vw;
+    } 
+    #aboutText {
         font-size: 3.5vw;
     } 
     #photoOfMe {
@@ -50,7 +53,10 @@
 }
 @media only screen and (min-width: 481px) {
     #hello p {
-        font-size: 20px;
+        font-size: 30px;
+    } 
+    #aboutText {
+        font-size: 18px;
     } 
     #photoOfMe {
         width: auto;
