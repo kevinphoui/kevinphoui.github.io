@@ -23,7 +23,6 @@
 }
 
 #hello p {
-    backxground-color: yellow;
     background: rgba(0,0,0,0.5);
 }
 
@@ -31,10 +30,7 @@
 #about-me {
     background-color: white;
     padding: 2em 0 2em 0; 
-    -webkit-box-shadow: -2px 0px 19px 3px #000000; 
-    box-shadow: -2px 0px 19px 3px #000000;
-    z-index: 1;
-    position: relative; 
+     
 }
 
 
@@ -65,9 +61,6 @@
     }
 }
 
-#introPara {
-    font-family: 'Helvetica','Roboto';
-}
 
 /* Flex Container */
 .flex-container {
@@ -82,7 +75,4 @@
     
 }
 
-div.photoContainer {
-    text-align: center;
-  }
 

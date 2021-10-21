@@ -3,9 +3,5 @@
 /* Section */
 #projects {
     background-color: white;
-    padding: 1em 0 3em 0;
-    -webkit-box-shadow: -2px 0px 19px 3px #000000; 
-    box-shadow: -2px 0px 19px 3px #000000;
-    z-index: 1;
-    position: relative;
+    padding: 1em 0 3em 0;   
 }

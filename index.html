@@ -5,10 +5,7 @@
 
 <!--
     TODO:
-    Change font
-    Scroll to top button
-    Slideshow for projects
-    Pay for google's map
+    Slideshow/Images for projects
 -->
 
 <!DOCTYPE html>
@@ -33,13 +30,11 @@
         <link rel="icon" type="image/png" sizes="16x16" href="files/icon/favicon-16x16.png">
         <link rel="manifest" href="files/icon/site.webmanifest">
 
-        <!-- JavaScript for map-->
-        <script src="js/script.js"></script>
-
         <title>Kevin Phouisangiem</title>
     </head>
 
     <body>
+        <button onclick="topFunction()" id="topButton" title="Go to top">&#8593;</button>
         <div id="page-container">
             <div id="content-wrap">
                 <main>
@@ -67,7 +62,7 @@
                         <div class="flex-container">
                             <div>
                                 <h1>About Me</h1>
-                                <p id= "introPara">
+                                <p>
                                     Born and raised in Minnesota, I grew up with computers and all sorts of technology around me! Through that, I developed a passion to become a programmer.
                                     <br><br>I'm currently a sophomore at the University of Wisconsin-Madison studying Computer Science and will be graduating in 2024. I recently graduated 
                                     from Century College with an AS in Computer Science.
@@ -75,8 +70,8 @@
                                 </p>
                             </div>
                             <div>
-                                <img id="photoOfMe" src="files/me2.jpg" alt="Me on campus!">
-                                <div class="photoContainer">
+                                <img id="photoOfMe" src="files/me1.jpg" alt="Me on campus!">
+                                <div style="text-align: center">
                                     <p>Me at Bascom Hill!</p>
                                 </div>
                             </div>
@@ -143,7 +138,8 @@
             </footer>
         </div>
 
-        <!-- Map Script -->
+        <!-- Scripts -->
+        <script src="js/script.js"></script>
         <script
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDk0ZdIUnBhFOb0N4LixfEDPMxALYzStYs&callback=initMap&libraries=&v=weekly"
         async

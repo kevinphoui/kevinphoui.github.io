@@ -18,10 +18,17 @@ html {
     background-color: #e4e6eb;
     font-family:  'Manrope', 'Roboto', 'Helvetica', sans-serif;
     overflow: auto;
+    scroll-behavior: smooth;
 }
 /* Wrap Links */
 a {
     word-wrap: break-word;
+}
+h1 {
+    font-size: 26pt;
+}
+h3 {
+    display: inline;
 }
 /* Makes website fill the whole page */
 #page-container {
@@ -81,10 +88,6 @@ body {
     height: 100%;
 }
 
-h3 {
-    display: inline;
-}
-
 /* Section Title */
 .sectionTitle {
     padding-top: 0.5em;
@@ -105,6 +108,26 @@ h3 {
     text-align: left;
 }
 
+#topButton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #18191A;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #topButton:hover {
+    background-color: lightgrey;
+    color: #18191A;
+  }
 
 /*------------------------------- Footer -------------------------------*/
 footer {
