@@ -1,6 +1,5 @@
 // JavaScript File
-
-// Button to Top
+// To Top Button
 //Get the button
 var mybutton = document.getElementById("topButton");
 
