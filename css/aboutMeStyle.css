@@ -22,7 +22,7 @@
     margin: 0 25% 0 25%;
 }
 
-#hello p {
+#hello h1 {
     background: rgba(0,0,0,0.5);
 }
 
@@ -36,7 +36,7 @@
 
 /* About Me Text & Image Scaling */    
 @media (max-width: 480px) {
-    #hello p {
+    #hello h1 {
         font-size: auto;
         font-size: 5vw;
     } 
@@ -52,7 +52,7 @@
     }
 }
 @media only screen and (min-width: 481px) {
-    #hello p {
+    #hello h1 {
         font-size: 30px;
     } 
     #aboutText {
