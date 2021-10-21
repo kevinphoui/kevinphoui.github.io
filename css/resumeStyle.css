@@ -1,17 +1,28 @@
 /*------------------------------- Resume Page -------------------------------*/
 
+/* Section */
+#resume {
+    background-color: white;
+    padding: 2em 0 2em 0;
+}
+
+/* Background image */
 .resume-background {
     background-image: url(../files/coding.jpg);
     background-attachment: fixed;
     background-size: cover;
+    height: 100vh;
 }
+
+/* Resume PDF */
 .resume {
     margin: 0 5% 0 5%;
+    position: relative;
+    top: 50%;
+    left: 45%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     background-color: white;
 }
 
-.resume-border {
-    box-sizing: border-box;
-    border-right: 5px solid white;
-    border-left: 5px solid white;
-}
+

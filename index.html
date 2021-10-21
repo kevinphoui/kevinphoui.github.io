@@ -5,10 +5,7 @@
 
 <!--
     TODO:
-    Change title font
-    Change grey to something better looking
-    Adjust resume sizing
-    Fix projects aligning?
+    Change font
     Scroll to top button
     Slideshow for projects
     Pay for google's map
@@ -17,57 +14,70 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset = "utf-8">
-        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <meta charset = "utf-8" content="width=device-width, initial-scale=1" name="viewport" />
+
+        <!-- CSS Styles -->
         <link rel="stylesheet" href="css/styles.css"/>
-        <link rel="stylesheet" href="css/homeStyle.css"/>
+        <link rel="stylesheet" href="css/aboutMeStyle.css"/>
         <link rel="stylesheet" href="css/resumeStyle.css"/>
+        <link rel="stylesheet" href="css/projectsStyle.css"/>
         <link rel="stylesheet" href="css/contactStyle.css"/>
+
+        <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Heebo"/>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Manrope"/>
+
+        <!-- Web Icon -->
         <link rel="apple-touch-icon" sizes="180x180" href="files/icon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="files/icon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="files/icon/favicon-16x16.png">
         <link rel="manifest" href="files/icon/site.webmanifest">
+
+        <!-- JavaScript for map-->
         <script src="js/script.js"></script>
+
         <title>Kevin Phouisangiem</title>
     </head>
 
     <body>
         <div id="page-container">
             <div id="content-wrap">
-                <header class="welcome" id="homeBanner">
-                    <div>Kevin Phouisangiem</div>
-                </header>
                 <main>
-                    <nav class="tabLink">
-                        <a class="navButton" href="#home">About Me</a>
-                        <a class="navButton" href="#resume">Resume</a>
-                        <a class="navButton" href="#projects">Projects</a>
-                        <a class="navButton" href="#contact">Contact</a>
-                    </nav>
-
                     
-                    <p id="intro">
-                        <em style="text-shadow: 2px 2px 0px rgba(255, 14, 0, 1);">
-                            Hello,</em> I'm Kevin! <br/>
-                            Welcome to my website! <br/>
-                    </p>
-
-                    <!-- Home -->
-                    <section id="home">
+                    <!-- Splash Screen -->
+                    <section id="intro">
+                        <div id="hello">
+                            <p>
+                                <em style="text-shadow: 2px 2px 0px rgba(255, 14, 0, 1);">
+                                    Hello,</em> I'm Kevin! <br/>
+                                    Welcome to my website! <br/>
+                            </p>
+                            <!-- Navigation Tabs-->
+                            <nav class="tabLink">
+                                <a class="navButton" href="#about-me">About Me</a>
+                                <a class="navButton" href="#resume">Resume</a>
+                                <a class="navButton" href="#projects">Projects</a>
+                                <a class="navButton" href="#contact">Contact</a>
+                            </nav>
+                        </div>
+                    </section>
+                    
+                    <!-- About Me -->
+                    <section id="about-me">
                         <div class="flex-container">
                             <div>
+                                <h1>About Me</h1>
                                 <p id= "introPara">
                                     Born and raised in Minnesota, I grew up with computers and all sorts of technology around me! Through that, I developed a passion to become a programmer.
-                                    <br><br>I'm currently a sophomore at the University of Wisconsin-Madison studying computer science and will be graduating in 2024. 
+                                    <br><br>I'm currently a sophomore at the University of Wisconsin-Madison studying Computer Science and will be graduating in 2024. I recently graduated 
+                                    from Century College with an AS in Computer Science.
                                     I am passionate about Computer Science and open to any work-related in the field!
                                 </p>
                             </div>
                             <div>
                                 <img id="photoOfMe" src="files/me2.jpg" alt="Me on campus!">
                                 <div class="photoContainer">
-                                    <p>Me at Bascom Hall!</p>
+                                    <p>Me at Bascom Hill!</p>
                                 </div>
                             </div>
                         </div>
@@ -76,8 +86,8 @@
                     <!-- Resume -->
                     <section id="resume" class ="resume-background">
                         <div class="resume">
-                            <h1 class="pageTitle">Resume</h1>
-                            <div class="resume-border">
+                            <h1 class="sectionTitle">Resume</h1>
+                            <div>
                                 <emxbed src="files/resume.pdf" type="application/pdf" style="width:90vw; height:100vh"/>
                                 <object data="files/resume.pdf" type="application/pdf" frameborder="0" width="100%" height="600px">
                                     <p>Your browser doesn't support PDFs</p>
@@ -91,8 +101,8 @@
                     <!-- Projects -->
                     <section id="projects">
                         <div style="margin: auto; width: 50%">
-                            <h1 class="pageTitle">Projects</h1>
-                            <div id ="projectsText">
+                            <h1 class="sectionTitle">Projects</h1>
+                            <div>
                                 <h3>Personal Website | May 2021</h3> HTML, CSS, & JavaScript <br/>
                                 This current website! Follows W3C standards | <br/>
                                 <a href="https://github.com/kevinphoui/kevinphoui.github.io">https://github.com/kevinphoui/kevinphoui.github.io</a><br/><br/>
@@ -110,7 +120,7 @@
 
                     <!-- Contact Me -->
                     <section id="contact" class="contact-background">
-                        <div class="flex-container">
+                        <div class="contact-container">
                             <div class="contact-info">
                                 <h1>Contact Me</h1>
                                 <div>
@@ -126,11 +136,14 @@
                 </main>
             </div>
 
+            <!-- Footer -->
             <footer>
                 &#169; 2021 Kevin Phouisangiem - All Rights Reserved<br/>
                 <div style="font-size: 16px"><em>This website is made by me</em></div>
             </footer>
         </div>
+
+        <!-- Map Script -->
         <script
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwGpXAb3CRQYtdMf7LvvnR2WVP_eqLyok&callback=initMap&libraries=&v=weekly"
         async
