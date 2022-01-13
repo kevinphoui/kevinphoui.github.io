@@ -1,4 +1,5 @@
 // JavaScript File
+
 // To Top Button
 //Get the button
 var mybutton = document.getElementById("topButton");
