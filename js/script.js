@@ -25,15 +25,15 @@ function topFunction() {
 // Contact Me Map
 function initMap() {
     // The location of East Bethel
-    const eastBethel = { lat: 45.3194, lng: -93.2024 };
+    const ramsey = { lat: 45.2611, lng: -93.4500 };
     // The map, centered at East Bethel
     const map = new google.maps.Map(document.getElementById("map"), {
       zoom: 9,
-      center: eastBethel,
+      center: ramsey,
     });
     // The marker, positioned at East Bethel
     const marker = new google.maps.Marker({
-      position: eastBethel,
+      position: ramsey,
       map: map,
     });
   }
