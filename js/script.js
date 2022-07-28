@@ -24,17 +24,18 @@ function topFunction() {
 
 // Contact Me Map
 function initMap() {
-    // The location of East Bethel
-    const ramsey = { lat: 45.2611, lng: -93.4500 };
-    // The map, centered at East Bethel
-    const map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 9,
-      center: ramsey,
-    });
-    // The marker, positioned at East Bethel
-    const marker = new google.maps.Marker({
-      position: ramsey,
-      map: map,
-    });
-  }
+  // The location of East Bethel
+  const ramsey = { lat: 45.2611, lng: -93.4500 };
+  // The map, centered at East Bethel
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 9,
+    center: ramsey,
+  });
+  // The marker, positioned at East Bethel
+  const marker = new google.maps.Marker({
+    position: ramsey,
+    map: map,
+  });
+}
 
+  

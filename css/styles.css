@@ -1,7 +1,4 @@
-/* 
-Global CSS file 
-By Kevin Phouisangiem
-*/
+/* Global CSS file | By Kevin Phouisangiem */
 /* Universal */
 * {
     margin: 0;
@@ -15,8 +12,6 @@ By Kevin Phouisangiem
 /*------------------------------- HTML -------------------------------*/
 html {
     height: 100%;
-    background-color: #e4e6eb;
-    font-family:  'Manrope', 'Roboto', 'Helvetica', sans-serif;
     overflow: auto;
     scroll-behavior: smooth;
 }
@@ -24,66 +19,90 @@ html {
 a {
     word-wrap: break-word;
 }
-h1 {
-    font-size: 26pt;
-}
 h3 {
     display: inline;
 }
-/* Makes website fill the whole page */
-#page-container {
-    position: relative;
-    min-height: 100vh;
-}
-/* Footer height */
-#content-wrap {
-    padding-bottom: 2.5rem;
+hr {
+    margin: 0 !important;
 }
 
-/*------------------------------- Navigation Tab -------------------------------*/
-.tabLink {
-    font-size: 25px;
-    text-align: center;
+/*------------------------------- Home Section -------------------------------*/
+.homeBackground {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../files/home.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: 1px -27px 102px -9px rgba(0,0,0,0.69) inset;
+    -webkit-box-shadow: 1px -27px 102px -9px rgba(0,0,0,0.69) inset;
+    -moz-box-shadow: 1px -27px 102px -9px rgba(0,0,0,0.69) inset;
+}
+
+/*------------------------------- About Section -------------------------------*/
+#about-me {
+    hexight: 50vh;
+}
+
+/*------------------------------- Resume Section -------------------------------*/
+
+/* Background image */
+.resumeBackground {
+    background-image: url(../files/campus.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/*------------------------------- Contact Section -------------------------------*/
+.contactBackground {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../files/minneapolis.jpg);
+    hxeight: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Background image */
+.contactStyle {
     background-color: white;
-}
-.navButton {
-    color: #18191A;
-    text-decoration: none;
-    padding: 0 1em 0 1em;
-}
-a.navButton:hover {
-    background-color: #18191A;
-    color: white;
+    background: rgba(255, 255, 255, 0.8);
 }
 
-
-/*------------------------------- Body -------------------------------*/
-body {
-    color: black;
-    height: 100%;
-}
-
-/* Section Title */
-.sectionTitle {
-    padding-top: 0.5em;
-    margin-bottom: 0.5em;
-    text-align: center;
-    font-size: 28;
-}
-
-/* Flex container */
-.flex-container {
+.contact-container {
     display: flex;
     background-color: white;
+    background: rgba(255, 255, 255, 0.8);
     flex-wrap: wrap;
     margin: 0 5% 0 5%;
-}
-.flex-container > div {
-    margin: 0 auto 0 auto;
-    text-align: left;
+    position: relative;
+    top: 50%;
+    left: 45%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
-/* Scroll to Top Button */
+.contact-info {
+    padding: 1em 1em 0 1em;
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+    height: 25vh;
+    width: 50vw;
+    overflow: hidden;
+}
+
+/*------------------------------- Mobile Styling -------------------------------*/
+@media only screen and (max-width: 768px) {
+    .parallexBackground {
+        height: 50vh !important;
+    }
+    #hello {
+        position: absolute !important; 
+        top: 30vh !important;
+    }
+  }
+
+
+/*------------------------------- Scroll to Top Button -------------------------------*/
 #topButton {
     display: none;
     position: fixed;
@@ -104,16 +123,3 @@ body {
     background-color: lightgrey;
     color: #18191A;
   }
-
-/*------------------------------- Footer -------------------------------*/
-footer {
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background-color: white; /*#18191A*/
-    color: black;
-}
-
-
-
