@@ -37,18 +37,16 @@ hr {
     -moz-box-shadow: 1px -27px 102px -9px rgba(0,0,0,0.69) inset;
 }
 
-/*------------------------------- About Section -------------------------------*/
-#about-me {
-    hexight: 50vh;
-}
-
 /*------------------------------- Resume Section -------------------------------*/
 
 /* Background image */
-.resumeBackground {
-    background-image: url(../files/campus.jpg);
+.projectsBackground {
+    background-image: url(../files/madison.jpg);
     background-attachment: fixed;
     background-size: cover;
+    box-shadow: 1px -27px 102px -9px rgba(0,0,0,0.69) inset;
+    -webkit-box-shadow: 1px -27px 102px -9px rgba(0,0,0,0.69) inset;
+    -moz-box-shadow: 1px -27px 102px -9px rgba(0,0,0,0.69) inset;
 }
 
 
@@ -66,28 +64,10 @@ hr {
     background: rgba(255, 255, 255, 0.8);
 }
 
-.contact-container {
-    display: flex;
-    background-color: white;
-    background: rgba(255, 255, 255, 0.8);
-    flex-wrap: wrap;
-    margin: 0 5% 0 5%;
-    position: relative;
-    top: 50%;
-    left: 45%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-.contact-info {
-    padding: 1em 1em 0 1em;
-}
-
 /* Set the size of the div element that contains the map */
 #map {
-    height: 25vh;
-    width: 50vw;
-    overflow: hidden;
+    height: 50vh;
+    
 }
 
 /*------------------------------- Mobile Styling -------------------------------*/
@@ -98,6 +78,12 @@ hr {
     #hello {
         position: absolute !important; 
         top: 30vh !important;
+    }
+    .img-fluid {
+        display: block !important;
+        max-width: 50% !important;
+        margin-left: auto !important;
+        margin-right: auto !important; 
     }
   }
 
