@@ -37,37 +37,80 @@ hr {
     -moz-box-shadow: 1px -27px 102px -9px rgba(0,0,0,0.69) inset;
 }
 
-/*------------------------------- Resume Section -------------------------------*/
+/*------------------------------- About Section -------------------------------*/
+#about-me {
+    color: #afafaf;
+    xbackground: rgb(207,207,207);
+    xbackground: linear-gradient(90deg, rgba(207,207,207,1) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 80%, rgba(233,233,233,1) 100%);
+    background-color: #1a1a1a;
+    box-shadow: 1px -27px 102px -9px rgba(0,0,0,0.69) inset;
+    -webkit-box-shadow: 1px -27px 102px -9px rgba(0,0,0,0.69) inset;
+    -moz-box-shadow: 1px -27px 102px -9px rgba(0,0,0,0.69) inset;
+    xbox-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
 
-/* Background image */
+#about-me a {
+    color: #88b8ff;
+}
+
+#about-me h1 {
+    color: white;
+}
+#about-me img {
+    xbackground-color: white;
+}
+
+/*------------------------------- Expreience & Projects Section -------------------------------*/
 .projectsBackground {
-    background-image: url(../files/madison.jpg);
+    background-image: url(../files/projects_background.png);
+    background-color: black;
     background-attachment: fixed;
     background-size: cover;
+    box-shadow: -1px -7px 73px 16px rgba(0,0,0,0.87) inset;
+-webkit-box-shadow: -1px -7px 73px 16px rgba(0,0,0,0.87) inset;
+-moz-box-shadow: -1px -7px 73px 16px rgba(0,0,0,0.87) inset;
+}
+
+/*------------------------------- Resume Section -------------------------------*/
+#resume {
+    color: white;
+    background-color: #1a1a1a;
     box-shadow: 1px -27px 102px -9px rgba(0,0,0,0.69) inset;
     -webkit-box-shadow: 1px -27px 102px -9px rgba(0,0,0,0.69) inset;
     -moz-box-shadow: 1px -27px 102px -9px rgba(0,0,0,0.69) inset;
 }
 
-
 /*------------------------------- Contact Section -------------------------------*/
 .contactBackground {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../files/minneapolis.jpg);
-    hxeight: 100vh;
     background-attachment: fixed;
     background-size: cover;
 }
 
 /* Background image */
 .contactStyle {
-    background-color: white;
-    background: rgba(255, 255, 255, 0.8);
+    color: #afafaf;
+    background-color: #1a1a1a;
+    box-shadow: 1px -27px 102px -9px rgba(0,0,0,0.69) inset;
+    -webkit-box-shadow: 1px -27px 102px -9px rgba(0,0,0,0.69) inset;
+    -moz-box-shadow: 1px -27px 102px -9px rgba(0,0,0,0.69) inset;
+}
+.contactStyle a {
+    color: #88b8ff;
 }
 
 /* Set the size of the div element that contains the map */
 #map {
     height: 50vh;
-    
+}
+
+/*------------------------------- Footer -------------------------------*/
+footer {
+    color: #afafaf;
+    background-color: #1a1a1a;
+    box-shadow: 1px -27px 102px -9px rgba(0,0,0,0.69) inset;
+    -webkit-box-shadow: 1px -27px 102px -9px rgba(0,0,0,0.69) inset;
+    -moz-box-shadow: 1px -27px 102px -9px rgba(0,0,0,0.69) inset;
 }
 
 /*------------------------------- Mobile Styling -------------------------------*/
